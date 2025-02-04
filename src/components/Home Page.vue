@@ -61,14 +61,41 @@
         </div>
       </div>
       <div class="LearnMore">Learn More</div>
-      <div style="margin-top: 15vh">
-        <h1>Recent Donations</h1>
-        <p style="margin: auto">
-          A Hand for a <span style="color: #4dbf38">Change</span>
-        </p>
-      </div>
+
+      <section class="RecentDonations">
+        <div>
+          <h1>Recent Donations</h1>
+          <p>A Hand for a <span style="color: #4dbf38">Change</span></p>
+        </div>
+      </section>
+
+      <section class="CardPlaceHolder">
+        <div class="Card">
+          <p>card</p>
+        </div>
+        <div class="Card">
+          <p>card</p>
+        </div>
+      </section>
+      <section class="RecentDonations">
+        <div>
+          <h1>
+            Together We Are Building A <br /><span style="color: #4dbf38"
+              >Greener</span
+            >
+            World !
+          </h1>
+        </div>
+      </section>
+      <section class="CardPlaceHolder">
+        <div class="Card">
+          <p>card</p>
+        </div>
+        <div class="Card">
+          <p>card</p>
+        </div>
+      </section>
     </section>
-    <section></section>
   </div>
 </template>
 
@@ -118,7 +145,7 @@ export default {
   color: #fffbfb;
   position: relative;
   background-color: #2a2e3a;
-  height: auto;
+  height: 500vh;
 }
 .donate {
   color: #fffbfb;
@@ -176,5 +203,35 @@ export default {
   color: #fffbfb;
 
   border: 0.8px solid #fffbfb;
+}
+.RecentDonations {
+  margin-top: 15vh;
+}
+.RecentDonations h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+.RecentDonations p {
+  opacity: 75%;
+  margin: 2px;
+}
+
+.CardPlaceHolder {
+  margin-top: 70px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Card {
+  margin: 1%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40vw;
+  height: 40vh;
+  background: #50545a;
 }
 </style>

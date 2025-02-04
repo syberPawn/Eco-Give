@@ -4,16 +4,18 @@
     <!-- Common Navbar appears on all pages -->
     <router-view></router-view>
     <!-- This will render the current page based on the route -->
+    <AppFooter />
   </div>
 </template>
 
 <script>
 import AppNavbar from "./components/AppNavbar.vue";
-
+import AppFooter from "./components/footer.vue";
 export default {
   name: "App",
   components: {
     AppNavbar,
+    AppFooter,
   },
 };
 </script>
