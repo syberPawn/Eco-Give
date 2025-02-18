@@ -9,7 +9,7 @@
     <ul class="navbar">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/about">About</router-link></li>
-      <li><a href="#services">Services</a></li>
+      <li><router-link to="/donationpage">Services</router-link></li>
       <li><a href="#contact">Sign-In/Sign-Up</a></li>
     </ul>
   </nav>
